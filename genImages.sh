@@ -8,7 +8,7 @@ ejdk=ojec1.1.1
 unzip -o $ejdk_zip -x index*
 
 # Build docker image
-docker build -t "java-me" -f src_gen/Dockerfile .
+docker build -t j2me .
 
 # Clean unzip jdk
 rm -rf $ejdk
