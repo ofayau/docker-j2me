@@ -57,7 +57,7 @@ Oracle and Java are registered trademarks of Oracle and/or its affiliates.
 
 The Java softwares (including JDK or JRE) belong to Oracle and this redistribution is not for commercial use.
 
-The ejdk directory is the unzipped version of `ejdk-8u51-linux-i586.tar.gz` available (with login) on [Oracle](http://www.oracle.com/technetwork/java/embedded/embedded-se/downloads/index.html)
+The ojec1.1.1 directory is the unzipped version of `ojec-1.1.1-rr-bin-b02-linux-x86-generic-product-22_apr_2013.zip` available (with login) on [Oracle](http://www.oracle.com/technetwork/java/embedded/javame/embedded-client/downloads/index.html)
 
 
 ## Installation & Usage
