@@ -8,3 +8,5 @@ MAINTAINER Olivier Fayau
 ADD ojec1.1.1/ /usr/lib/jvm/ojec1.1.1/
 RUN ln -s /usr/lib/jvm/ojec1.1.1 /usr/lib/jvm/jre
 
+CMD ["cvm", "-version"]
+

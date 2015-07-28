@@ -11,7 +11,7 @@ unzip -o $ejdk_zip -x index*
 docker build -t j2me .
 
 # Clean unzip jdk
-rm -rf $ejdk
+#rm -rf $ejdk
 
 echo "Image were builded OK"
 
