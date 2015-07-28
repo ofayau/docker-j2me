@@ -68,10 +68,10 @@ Download or update image :
 docker pull ofayau/j2me
 ```
 
-Showing java version of every image :
+Showing java version (default command) :
 
 ```sh
-docker run --rm -it ofayau/j2me cvm -version
+docker run --rm -it ofayau/j2me
 Product version "Oracle Java Micro Edition Embedded Client 1.1.1"
 *Java(TM) ME CDC 1.1.2 Runtime Environment (build 1.1.1-b02)*
 Components: CDC JSR218, FP JSR219, JAAS JSR219, JCE JSR219, JSSE JSR219, RMI JSR66, JDBC JSR169, XML JSR280
@@ -85,7 +85,7 @@ Simple runs
 docker run --rm -v "$PWD":/tmp/myapp -w /tmp/myapp ofayau/j2me cvm -jar myFatJar.jar
 ```
 
-Compile and run for compact1
+Compile and run for j2me
 
 ```sh
 # Compile with jdk (outside container)
